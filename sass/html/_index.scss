@@ -1,4 +1,4 @@
-@import "../utilidades/variables";
+@import "../utilidades/extend";
 @import "../utilidades/variables";
 @import "../utilidades/mixin";
 
@@ -139,11 +139,7 @@ footer div h4{
 
 
 .boton{
-    font-size: 18px;
-    background: rgb(86, 72, 214);
-    text-decoration: none;
-    width:200px;
-    padding:5px;
+    @include boton-estilo;
     text-align: center;
     color:white;
 }
@@ -153,7 +149,10 @@ footer div h4{
     
 }
 
-
+.boton-nav{
+    @include boton-estilo;
+    @extend %color-boton;
+}
 
 
 

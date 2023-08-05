@@ -107,8 +107,8 @@ footer div h4 {
   margin: 10px; }
 
 .boton {
-  font-size: 18px;
   background: #5648d6;
+  font-size: 18px;
   text-decoration: none;
   width: 200px;
   padding: 5px;
@@ -117,6 +117,13 @@ footer div h4 {
 
 .volver-arriba {
   margin-top: 100px; }
+
+.boton-nav {
+  background: #5648d6;
+  font-size: 18px;
+  text-decoration: none;
+  width: 200px;
+  padding: 5px; }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .section-fotos {
